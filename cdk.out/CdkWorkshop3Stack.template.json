@@ -484,10 +484,10 @@
         "aws:cdk:path": "CdkWorkshop3Stack/eip"
       }
     },
-    "publicsubnetASubnetE62E7F27": {
+    "publicsubnetBSubnet0CD77A3B": {
       "Type": "AWS::EC2::Subnet",
       "Properties": {
-        "CidrBlock": "10.0.0.0/26",
+        "CidrBlock": "10.0.0.64/26",
         "VpcId": {
           "Ref": "vpccfB1E863F1"
         },
@@ -503,15 +503,15 @@
         "Tags": [
           {
             "Key": "Name",
-            "Value": "CdkWorkshop3Stack/public-subnetA"
+            "Value": "CdkWorkshop3Stack/public-subnetB"
           }
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/public-subnetA/Subnet"
+        "aws:cdk:path": "CdkWorkshop3Stack/public-subnetB/Subnet"
       }
     },
-    "publicsubnetARouteTable4A2FCFFF": {
+    "publicsubnetBRouteTable4DEAAAF4": {
       "Type": "AWS::EC2::RouteTable",
       "Properties": {
         "VpcId": {
@@ -520,32 +520,32 @@
         "Tags": [
           {
             "Key": "Name",
-            "Value": "CdkWorkshop3Stack/public-subnetA"
+            "Value": "CdkWorkshop3Stack/public-subnetB"
           }
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/public-subnetA/RouteTable"
+        "aws:cdk:path": "CdkWorkshop3Stack/public-subnetB/RouteTable"
       }
     },
-    "publicsubnetARouteTableAssociation4B916FD8": {
+    "publicsubnetBRouteTableAssociation04513D2D": {
       "Type": "AWS::EC2::SubnetRouteTableAssociation",
       "Properties": {
         "RouteTableId": {
-          "Ref": "publicsubnetARouteTable4A2FCFFF"
+          "Ref": "publicsubnetBRouteTable4DEAAAF4"
         },
         "SubnetId": {
-          "Ref": "publicsubnetASubnetE62E7F27"
+          "Ref": "publicsubnetBSubnet0CD77A3B"
         }
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/public-subnetA/RouteTableAssociation"
+        "aws:cdk:path": "CdkWorkshop3Stack/public-subnetB/RouteTableAssociation"
       }
     },
-    "privatesubnetASubnet9BE3AEAE": {
+    "privatesubnetBSubnet33D90BFA": {
       "Type": "AWS::EC2::Subnet",
       "Properties": {
-        "CidrBlock": "10.0.0.128/26",
+        "CidrBlock": "10.0.0.192/26",
         "VpcId": {
           "Ref": "vpccfB1E863F1"
         },
@@ -561,15 +561,15 @@
         "Tags": [
           {
             "Key": "Name",
-            "Value": "CdkWorkshop3Stack/private-subnetA"
+            "Value": "CdkWorkshop3Stack/private-subnetB"
           }
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/private-subnetA/Subnet"
+        "aws:cdk:path": "CdkWorkshop3Stack/private-subnetB/Subnet"
       }
     },
-    "privatesubnetARouteTable308376A5": {
+    "privatesubnetBRouteTable710BC4D8": {
       "Type": "AWS::EC2::RouteTable",
       "Properties": {
         "VpcId": {
@@ -578,26 +578,26 @@
         "Tags": [
           {
             "Key": "Name",
-            "Value": "CdkWorkshop3Stack/private-subnetA"
+            "Value": "CdkWorkshop3Stack/private-subnetB"
           }
         ]
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/private-subnetA/RouteTable"
+        "aws:cdk:path": "CdkWorkshop3Stack/private-subnetB/RouteTable"
       }
     },
-    "privatesubnetARouteTableAssociation3DE170D6": {
+    "privatesubnetBRouteTableAssociation7D24A72A": {
       "Type": "AWS::EC2::SubnetRouteTableAssociation",
       "Properties": {
         "RouteTableId": {
-          "Ref": "privatesubnetARouteTable308376A5"
+          "Ref": "privatesubnetBRouteTable710BC4D8"
         },
         "SubnetId": {
-          "Ref": "privatesubnetASubnet9BE3AEAE"
+          "Ref": "privatesubnetBSubnet33D90BFA"
         }
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/private-subnetA/RouteTableAssociation"
+        "aws:cdk:path": "CdkWorkshop3Stack/private-subnetB/RouteTableAssociation"
       }
     },
     "natgateway": {
@@ -605,7 +605,7 @@
       "Properties": {
         "SubnetId": {
           "Fn::GetAtt": [
-            "publicsubnetASubnetE62E7F27",
+            "publicsubnetBSubnet0CD77A3B",
             "VpcId"
           ]
         },
@@ -681,7 +681,7 @@
         "aws:cdk:path": "CdkWorkshop3Stack/pri_route"
       }
     },
-    "pubsubnetAroutetableassociation": {
+    "pubsubnetBroutetableassociation": {
       "Type": "AWS::EC2::SubnetRouteTableAssociation",
       "Properties": {
         "RouteTableId": {
@@ -692,16 +692,16 @@
         },
         "SubnetId": {
           "Fn::GetAtt": [
-            "publicsubnetASubnetE62E7F27",
+            "publicsubnetBSubnet0CD77A3B",
             "VpcId"
           ]
         }
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/pub_subnetA_route_table_association"
+        "aws:cdk:path": "CdkWorkshop3Stack/pub_subnetB_route_table_association"
       }
     },
-    "prisubnetAroutetableassociation": {
+    "prisubnetBroutetableassociation": {
       "Type": "AWS::EC2::SubnetRouteTableAssociation",
       "Properties": {
         "RouteTableId": {
@@ -712,13 +712,13 @@
         },
         "SubnetId": {
           "Fn::GetAtt": [
-            "privatesubnetASubnet9BE3AEAE",
+            "privatesubnetBSubnet33D90BFA",
             "VpcId"
           ]
         }
       },
       "Metadata": {
-        "aws:cdk:path": "CdkWorkshop3Stack/pri_subnetA_route_table_association"
+        "aws:cdk:path": "CdkWorkshop3Stack/pri_subnetB_route_table_association"
       }
     },
     "securitygroup1836D8F6": {
@@ -848,7 +848,7 @@
     "CDKMetadata": {
       "Type": "AWS::CDK::Metadata",
       "Properties": {
-        "Analytics": "v2:deflate64:H4sIAAAAAAAA/1VPQW7CMBB8C3djCFx6BEUVygVZScV9YxaxJbGRvS6Kovy9NiGkPe3szO5oJpPZdiPXix08/FKfb6teW4eyrxj0TZTobXAaRX4xChy0yOhEbo1nFzQn+u9JFM7EZM0gkl2PeiP7010n7aRyoULdkK5CbfD5O6PSBsYvqBuc+Znbe281QXJ+HyfwWag0jsAHYHxAJ5Sjnwhn48LExBFPB2OS17bn2PLaomHx+qhQB0fcHZwN92eUf0QRi4MZy054EASt7Es7Zp/mJCtnL9TgMAxCdXy1ZrWVHzJbL7490dIFw9SiLMf5C/1yCg2OAQAA"
+        "Analytics": "v2:deflate64:H4sIAAAAAAAA/1VPQW7CMBB8C3djSHPpsSiqUC6VlSDuG7OILYmN7DUoivL32oQ07WlnZ3ZHM5nM8lxuVx/w8Gt9um4GbR3KoWbQV1Ght8FpFMXZKHDQIaMThTWeXdCc6L8nUTgRkzWjSHYD6jc5HG86aUdVCBWalnQdGoPP3wVVNjAeoGlx4Rdu573VBMn59ziBz1Kl8QW8B8YH9EI5uke4GJcmJo54PpiSvLYdx5aXDg2L10eNOjjifu9suD2j/CPKWBzMVHbGoyDo5FDZKfs8Z1k5e6YWx3EUqueLNZtcvstsu/r2RGsXDFOHsprmD09Tf0aOAQAA"
       },
       "Metadata": {
         "aws:cdk:path": "CdkWorkshop3Stack/CDKMetadata/Default"

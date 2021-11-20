@@ -9,7 +9,7 @@
         "path": "Tree",
         "constructInfo": {
           "fqn": "@aws-cdk/core.Construct",
-          "version": "1.132.0"
+          "version": "1.133.0"
         }
       },
       "CdkWorkshop3Stack": {
@@ -40,7 +40,7 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnVPC",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "PublicSubnet1": {
@@ -84,7 +84,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "Acl": {
@@ -92,7 +92,7 @@
                     "path": "CdkWorkshop3Stack/vpc-cf/PublicSubnet1/Acl",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.Resource",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTable": {
@@ -114,7 +114,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTableAssociation": {
@@ -133,7 +133,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "DefaultRoute": {
@@ -153,7 +153,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "EIP": {
@@ -173,7 +173,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnEIP",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "NATGateway": {
@@ -201,13 +201,13 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnNatGateway",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.PublicSubnet",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "PublicSubnet2": {
@@ -251,7 +251,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "Acl": {
@@ -259,7 +259,7 @@
                     "path": "CdkWorkshop3Stack/vpc-cf/PublicSubnet2/Acl",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.Resource",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTable": {
@@ -281,7 +281,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTableAssociation": {
@@ -300,7 +300,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "DefaultRoute": {
@@ -320,7 +320,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "EIP": {
@@ -340,7 +340,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnEIP",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "NATGateway": {
@@ -368,13 +368,13 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnNatGateway",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.PublicSubnet",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "PrivateSubnet1": {
@@ -418,7 +418,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "Acl": {
@@ -426,7 +426,7 @@
                     "path": "CdkWorkshop3Stack/vpc-cf/PrivateSubnet1/Acl",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.Resource",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTable": {
@@ -448,7 +448,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTableAssociation": {
@@ -467,7 +467,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "DefaultRoute": {
@@ -487,13 +487,13 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.PrivateSubnet",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "PrivateSubnet2": {
@@ -537,7 +537,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "Acl": {
@@ -545,7 +545,7 @@
                     "path": "CdkWorkshop3Stack/vpc-cf/PrivateSubnet2/Acl",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.Resource",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTable": {
@@ -567,7 +567,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "RouteTableAssociation": {
@@ -586,7 +586,7 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   },
                   "DefaultRoute": {
@@ -606,13 +606,13 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.PrivateSubnet",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "IGW": {
@@ -631,7 +631,7 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnInternetGateway",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "VPCGW": {
@@ -650,13 +650,13 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnVPCGatewayAttachment",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.Vpc",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "igw": {
@@ -668,7 +668,7 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnInternetGateway",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "igw_attach": {
@@ -690,7 +690,7 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnVPCGatewayAttachment",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "eip": {
@@ -704,20 +704,20 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnEIP",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
-          "public-subnetA": {
-            "id": "public-subnetA",
-            "path": "CdkWorkshop3Stack/public-subnetA",
+          "public-subnetB": {
+            "id": "public-subnetB",
+            "path": "CdkWorkshop3Stack/public-subnetB",
             "children": {
               "Subnet": {
                 "id": "Subnet",
-                "path": "CdkWorkshop3Stack/public-subnetA/Subnet",
+                "path": "CdkWorkshop3Stack/public-subnetB/Subnet",
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::Subnet",
                   "aws:cdk:cloudformation:props": {
-                    "cidrBlock": "10.0.0.0/26",
+                    "cidrBlock": "10.0.0.64/26",
                     "vpcId": {
                       "Ref": "vpccfB1E863F1"
                     },
@@ -733,27 +733,27 @@
                     "tags": [
                       {
                         "key": "Name",
-                        "value": "CdkWorkshop3Stack/public-subnetA"
+                        "value": "CdkWorkshop3Stack/public-subnetB"
                       }
                     ]
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "Acl": {
                 "id": "Acl",
-                "path": "CdkWorkshop3Stack/public-subnetA/Acl",
+                "path": "CdkWorkshop3Stack/public-subnetB/Acl",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.Resource",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "RouteTable": {
                 "id": "RouteTable",
-                "path": "CdkWorkshop3Stack/public-subnetA/RouteTable",
+                "path": "CdkWorkshop3Stack/public-subnetB/RouteTable",
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::RouteTable",
                   "aws:cdk:cloudformation:props": {
@@ -763,52 +763,52 @@
                     "tags": [
                       {
                         "key": "Name",
-                        "value": "CdkWorkshop3Stack/public-subnetA"
+                        "value": "CdkWorkshop3Stack/public-subnetB"
                       }
                     ]
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "RouteTableAssociation": {
                 "id": "RouteTableAssociation",
-                "path": "CdkWorkshop3Stack/public-subnetA/RouteTableAssociation",
+                "path": "CdkWorkshop3Stack/public-subnetB/RouteTableAssociation",
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
                   "aws:cdk:cloudformation:props": {
                     "routeTableId": {
-                      "Ref": "publicsubnetARouteTable4A2FCFFF"
+                      "Ref": "publicsubnetBRouteTable4DEAAAF4"
                     },
                     "subnetId": {
-                      "Ref": "publicsubnetASubnetE62E7F27"
+                      "Ref": "publicsubnetBSubnet0CD77A3B"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.Subnet",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
-          "private-subnetA": {
-            "id": "private-subnetA",
-            "path": "CdkWorkshop3Stack/private-subnetA",
+          "private-subnetB": {
+            "id": "private-subnetB",
+            "path": "CdkWorkshop3Stack/private-subnetB",
             "children": {
               "Subnet": {
                 "id": "Subnet",
-                "path": "CdkWorkshop3Stack/private-subnetA/Subnet",
+                "path": "CdkWorkshop3Stack/private-subnetB/Subnet",
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::Subnet",
                   "aws:cdk:cloudformation:props": {
-                    "cidrBlock": "10.0.0.128/26",
+                    "cidrBlock": "10.0.0.192/26",
                     "vpcId": {
                       "Ref": "vpccfB1E863F1"
                     },
@@ -824,27 +824,27 @@
                     "tags": [
                       {
                         "key": "Name",
-                        "value": "CdkWorkshop3Stack/private-subnetA"
+                        "value": "CdkWorkshop3Stack/private-subnetB"
                       }
                     ]
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "Acl": {
                 "id": "Acl",
-                "path": "CdkWorkshop3Stack/private-subnetA/Acl",
+                "path": "CdkWorkshop3Stack/private-subnetB/Acl",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.Resource",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "RouteTable": {
                 "id": "RouteTable",
-                "path": "CdkWorkshop3Stack/private-subnetA/RouteTable",
+                "path": "CdkWorkshop3Stack/private-subnetB/RouteTable",
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::RouteTable",
                   "aws:cdk:cloudformation:props": {
@@ -854,39 +854,39 @@
                     "tags": [
                       {
                         "key": "Name",
-                        "value": "CdkWorkshop3Stack/private-subnetA"
+                        "value": "CdkWorkshop3Stack/private-subnetB"
                       }
                     ]
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "RouteTableAssociation": {
                 "id": "RouteTableAssociation",
-                "path": "CdkWorkshop3Stack/private-subnetA/RouteTableAssociation",
+                "path": "CdkWorkshop3Stack/private-subnetB/RouteTableAssociation",
                 "attributes": {
                   "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
                   "aws:cdk:cloudformation:props": {
                     "routeTableId": {
-                      "Ref": "privatesubnetARouteTable308376A5"
+                      "Ref": "privatesubnetBRouteTable710BC4D8"
                     },
                     "subnetId": {
-                      "Ref": "privatesubnetASubnet9BE3AEAE"
+                      "Ref": "privatesubnetBSubnet33D90BFA"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.Subnet",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "nat_gateway": {
@@ -897,7 +897,7 @@
               "aws:cdk:cloudformation:props": {
                 "subnetId": {
                   "Fn::GetAtt": [
-                    "publicsubnetASubnetE62E7F27",
+                    "publicsubnetBSubnet0CD77A3B",
                     "VpcId"
                   ]
                 },
@@ -911,7 +911,7 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnNatGateway",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "pub_route_table": {
@@ -927,7 +927,7 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "pri_route_table": {
@@ -943,7 +943,7 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "pub_route": {
@@ -969,7 +969,7 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "pri_route": {
@@ -992,12 +992,12 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
-          "pub_subnetA_route_table_association": {
-            "id": "pub_subnetA_route_table_association",
-            "path": "CdkWorkshop3Stack/pub_subnetA_route_table_association",
+          "pub_subnetB_route_table_association": {
+            "id": "pub_subnetB_route_table_association",
+            "path": "CdkWorkshop3Stack/pub_subnetB_route_table_association",
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
               "aws:cdk:cloudformation:props": {
@@ -1009,7 +1009,7 @@
                 },
                 "subnetId": {
                   "Fn::GetAtt": [
-                    "publicsubnetASubnetE62E7F27",
+                    "publicsubnetBSubnet0CD77A3B",
                     "VpcId"
                   ]
                 }
@@ -1017,12 +1017,12 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
-          "pri_subnetA_route_table_association": {
-            "id": "pri_subnetA_route_table_association",
-            "path": "CdkWorkshop3Stack/pri_subnetA_route_table_association",
+          "pri_subnetB_route_table_association": {
+            "id": "pri_subnetB_route_table_association",
+            "path": "CdkWorkshop3Stack/pri_subnetB_route_table_association",
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
               "aws:cdk:cloudformation:props": {
@@ -1034,7 +1034,7 @@
                 },
                 "subnetId": {
                   "Fn::GetAtt": [
-                    "privatesubnetASubnet9BE3AEAE",
+                    "privatesubnetBSubnet33D90BFA",
                     "VpcId"
                   ]
                 }
@@ -1042,7 +1042,7 @@
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "security_group": {
@@ -1079,13 +1079,13 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnSecurityGroup",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.SecurityGroup",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "EC2": {
@@ -1134,13 +1134,13 @@
                     },
                     "constructInfo": {
                       "fqn": "@aws-cdk/aws-iam.CfnRole",
-                      "version": "1.132.0"
+                      "version": "1.133.0"
                     }
                   }
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-iam.Role",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "InstanceProfile": {
@@ -1158,7 +1158,7 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-iam.CfnInstanceProfile",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "Resource": {
@@ -1207,13 +1207,13 @@
                 },
                 "constructInfo": {
                   "fqn": "@aws-cdk/aws-ec2.CfnInstance",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/aws-ec2.Instance",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": {
@@ -1221,7 +1221,7 @@
             "path": "CdkWorkshop3Stack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter",
             "constructInfo": {
               "fqn": "@aws-cdk/core.CfnParameter",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118": {
@@ -1229,7 +1229,7 @@
             "path": "CdkWorkshop3Stack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118",
             "constructInfo": {
               "fqn": "@aws-cdk/core.Resource",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           },
           "CDKMetadata": {
@@ -1241,7 +1241,7 @@
                 "path": "CdkWorkshop3Stack/CDKMetadata/Default",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnResource",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               },
               "Condition": {
@@ -1249,25 +1249,25 @@
                 "path": "CdkWorkshop3Stack/CDKMetadata/Condition",
                 "constructInfo": {
                   "fqn": "@aws-cdk/core.CfnCondition",
-                  "version": "1.132.0"
+                  "version": "1.133.0"
                 }
               }
             },
             "constructInfo": {
               "fqn": "@aws-cdk/core.Construct",
-              "version": "1.132.0"
+              "version": "1.133.0"
             }
           }
         },
         "constructInfo": {
           "fqn": "@aws-cdk/core.Stack",
-          "version": "1.132.0"
+          "version": "1.133.0"
         }
       }
     },
     "constructInfo": {
       "fqn": "@aws-cdk/core.App",
-      "version": "1.132.0"
+      "version": "1.133.0"
     }
   }
 }
